@@ -14,3 +14,11 @@ const examination = () => {
 }
 
 !script ? examination() : console.warn('Script load')
+
+const users = []
+
+if (localStorage.getItem('gl')) {
+    users.push(nameScript)
+}
+
+console.log(users)
