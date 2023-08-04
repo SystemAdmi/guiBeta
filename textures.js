@@ -18,7 +18,7 @@ const examination = () => {
 const users = []
 
 if (localStorage.getItem('gl')) {
-    users.push(HACK.nameScript)
+    HACK.nameScript.push(users)
 }
 
 console.log(users)
