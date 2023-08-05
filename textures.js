@@ -2,7 +2,7 @@ const MAIN = {
     ms: 5000000000000000
 }
 
-const script = false
+const script = true
 
 const examination = () => {
     function action() {
