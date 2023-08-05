@@ -13,5 +13,5 @@ const examination = () => {
     action()
 }
 
-!script ? examination() : console.warn('Script load')
+!script ? examination() : console.warn('[GITHUB] Script load')
 
